@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level title="Test Level">
+	<players>
+		<AI_1 id="1" color="RED" defense="0.0" reproduction="0.0" speed="0.0" strength="0.0" />
+	</players>
+	
+	<cell id="1" x="50" y="50" radius="30" defense="0.0" reproduction="1.0" speed="0.0" strength="0.0" owner="AI_1" numPhages="20" maxPhages="100" />
+	<cell id="2" x="100" y="20" radius="20" defense="0.0" reproduction="0.0" speed="0.0" strength="0.0" owner="player" numPhages="15" maxPhages="75" />
+	<cell id="3" x="0" y="0" radius="15" defense="0.0" reproduction="0.0" speed="0.0" strength="0.0" owner="default" numPhages="10" maxPhages="50" />
+</level>
