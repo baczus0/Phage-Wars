@@ -73,6 +73,7 @@ public class Cell {
 	public void receivePhages(Phage sender, int numSent) {
 		if (this.owner == sender) {
 			// If friendly phages are sent
+			// test
 			if (!isFull()) numPhages = Math.min(numPhages + numSent, maxPhages);
 		} else {
 			// If enemy phages are sent
